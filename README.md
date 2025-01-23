@@ -26,7 +26,7 @@ This project provides a REST API for managing and accessing service data such as
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/lamadev7/emergency-service-locator-backend
    cd backend
    npm install
    create .env file and paste the .env file in given attachment
