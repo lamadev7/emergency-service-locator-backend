@@ -11,7 +11,7 @@ const heuristic = (a: [number, number], b: [number, number]) => {
 };
 
 export const calculatePath = (
-    userLocation: string,
+    userLocation: [Number, Number],
     services: { [key: string]: Service }
 ) => {
     const [userRow, userCol]: any = userLocation;

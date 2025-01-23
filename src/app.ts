@@ -4,7 +4,7 @@ dotenv.config();
 import cors from "cors";
 import express from "express";
 import bodyParser from "body-parser";
-import servicesRouter from "./routes/service";
+import servicesRouter from "./routes/servicefinder.route";
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use("/services", servicesRouter);
 
 // Start Server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9999;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
